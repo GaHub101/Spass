@@ -1,21 +1,39 @@
 body {
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background: #121212;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #111;
+  color: #f0f0f0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.counter {
-  background: #fff;
+.box {
+  background: #1e1e1e;
+  border: 1px solid #2c2c2c;
   padding: 2rem 3rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-size: 3.5rem;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: none;
+}
+
+.message-top {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-bottom: 1.5rem;
+}
+
+.amount {
+  font-size: 4rem;
   font-weight: bold;
-  color: #222;
+  color: #4caf50; /* Grün als positive Farbe */
+  margin-bottom: 1.5rem;
+}
+
+.message-bottom {
+  font-size: 1rem;
+  color: #aaaaaa;
 }
