@@ -10,5 +10,5 @@ function calculateNumber() {
 
 document.addEventListener('DOMContentLoaded', () => {
   const amount = calculateNumber();
-  document.getElementById('number').textContent = `CHF ${amount.toLocaleString('de-CH')}.-`;
+  document.getElementById('number').textContent = `${amount.toLocaleString('de-CH')}.-`;
 });
