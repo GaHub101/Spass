@@ -9,5 +9,6 @@ function calculateNumber() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('number').textContent = calculateNumber();
+  const amount = calculateNumber();
+  document.getElementById('number').textContent = `${amount.toLocaleString('de-CH')} CHF`;
 });
