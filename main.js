@@ -3,7 +3,7 @@ function calculateNumber() {
   const now = new Date();
 
   const monthsPassed = (now.getFullYear() - start.getFullYear()) * 12 + (now.getMonth() - start.getMonth());
-  const total = Math.max(0, monthsPassed) * 150-192.60-50.20-76.8;
+  const total = Math.max(0, monthsPassed) * 150-192.60-50.20-76.8-61.7;
 
   return total;
 }
